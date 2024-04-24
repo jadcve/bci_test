@@ -29,8 +29,8 @@ public class UsuarioDto {
     private String name;
     
     @IsRequired
-    //  Si se quiere dejar el formato libre  ^[a-zA-Z0-9._%+-]+@dominio\\.cl$
-    @Pattern(regexp = "^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\\.[a-zA-Z]{2,}$", message = "El formato del correo debe ser aaaaaaa@dominio.cl")
+    //  Si se quiere dejar el formato aaaaaaa@dominio.cl  ^[a-zA-Z0-9._%+-]+@dominio\\.cl$
+    @Pattern(regexp = "^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\\.[a-zA-Z]{2,}$", message = "El formato del correo debe ser mail@dominio.cl")
     @ExistsByEmail(message = "El correo ya registrado")
     private String email;
     private Audit audit;
