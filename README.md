@@ -14,7 +14,7 @@ spring.h2.console.enabled=true
 spring.datasource.url=jdbc:h2:mem:db_bci_test
 spring.datasource.driver-class-name=org.h2.Driver
 spring.datasource.username=sa
-spring.datasource.password=
+spring.datasource.password=password
 spring.jpa.database-platform=org.hibernate.dialect.H2Dialect
 spring.h2.console.path=/h2-console
 spring.jpa.hibernate.ddl-auto=create
@@ -51,12 +51,7 @@ Se realizan validaciones personalizadas para los campos `name`, `email`, y `pass
 Para probar la aplicación, puedes utilizar herramientas como Postman o cURL. Asegúrate de que la aplicación esté ejecutándose y envía las peticiones a los endpoints proporcionados.
 
 ## Construcción y Ejecución
-Para construir y ejecutar la aplicación, utiliza Maven o Gradle. Aquí un ejemplo con Maven:
-
-```bash
-mvn clean install
-java -jar target/nombre-del-artifacto.jar
-```
+Para construir y ejecutar la aplicación, utiliza Maven.
 
 ## Repositorio
 El código fuente está disponible en GitHub: [bci-test GitHub Repository](https://github.com/jadcve/bci_test/)
