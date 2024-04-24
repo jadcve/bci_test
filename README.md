@@ -56,6 +56,8 @@ Para construir y ejecutar la aplicación, utiliza Maven.
 ## Repositorio
 El código fuente está disponible en GitHub: [bci-test GitHub Repository](https://github.com/jadcve/bci_test/)
 
+## Carpeta adicionales 
+Se agrego una carpeta de nombre **adicionales** donde se encuentra los script para la construcción de las tablas (por defecto se generan solas) y las colecciones de Postman para realizar las pruebas de la aplicación
 
 ## Contribuir
 Para contribuir al proyecto, por favor envía un pull request o abre un issue para discutir los cambios que te gustaría implementar.
